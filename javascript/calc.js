@@ -82,7 +82,7 @@ function calcTotals(event) {
     chart_data["2022-12-12"] = week7_total;
     chart_data["2022-12-19"] = week8_total;
     chart_data["2022-12-26"] = week9_total;
-    chart_data["2022-01-02"] = week10_total;
+    chart_data["2023-01-02"] = week10_total;
 
     // new Chartkick.AreaChart("chart-1", {"2022-10-03": 37, "2022-10-10": 40, "2022-10-17": 40, "2022-10-24": 40, "2022-10-31": 40, "2022-11-07": 40,"2022-11-14": 40,"2022-11-21": 40,"2022-11-28": 40,"2022-12-05": 44});
     new Chartkick.AreaChart("chart-1", chart_data);
