@@ -73,16 +73,16 @@ function calcTotals(event) {
     let week8_total = calcWeek("#week-8");
     let week9_total = calcWeek("#week-9");
     let week10_total = calcWeek("#week-10");
-    chart_data["week 1"] = week1_total;
-    chart_data["week 2"] = week2_total;
-    chart_data["week 3"] = week3_total;
-    chart_data["week 4"] = week4_total;
-    chart_data["week 5"] = week5_total;
-    chart_data["week 6"] = week6_total;
-    chart_data["week 7"] = week7_total;
-    chart_data["week 8"] = week8_total;
-    chart_data["week 9"] = week9_total;
-    chart_data["week 10"] = week10_total;
+    chart_data["week-1"] = week1_total;
+    chart_data["week-2"] = week2_total;
+    chart_data["week-3"] = week3_total;
+    chart_data["week-4"] = week4_total;
+    chart_data["week-5"] = week5_total;
+    chart_data["week-6"] = week6_total;
+    chart_data["week-7"] = week7_total;
+    chart_data["week-8"] = week8_total;
+    chart_data["week-9"] = week9_total;
+    chart_data["week-10"] = week10_total;
 
     // new Chartkick.AreaChart("chart-1", {"2022-10-03": 37, "2022-10-10": 40, "2022-10-17": 40, "2022-10-24": 40, "2022-10-31": 40, "2022-11-07": 40,"2022-11-14": 40,"2022-11-21": 40,"2022-11-28": 40,"2022-12-05": 44});
     new Chartkick.AreaChart("chart-1", chart_data);
