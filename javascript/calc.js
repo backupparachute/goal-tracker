@@ -16,19 +16,6 @@ document.addEventListener("DOMContentLoaded", function(){
     })
   })
 
-    // let searchParams = new URLSearchParams(window.location.search);
-    // let trs = searchParams.get('total_round_size') || searchParams.get('trs');
-    //
-    // console.log("found trs param: "+trs);
-    // // bump for pages
-    //
-    // if (trs) {
-    //   trs = Number(trs);
-    //   console.log("setting trs = "+trs);
-    //   document.querySelector('#tot-rnd-size').value = trs;
-    // }
-
-
     calcTotals();
 
 });
